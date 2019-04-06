@@ -66,7 +66,7 @@ OUTPUT_DIR = 'bert'#@param {type:"string"}
 DO_DELETE = False #@param {type:"boolean"}
 #@markdown Set USE_BUCKET and BUCKET if you want to (optionally) store model output on GCP bucket.
 USE_BUCKET = True #@param {type:"boolean"}
-BUCKET = 'server-infrastructure-ml' #@param {type:"string"}
+BUCKET = 'my-cloud-bucket-ml' #@param {type:"string"}
 
 if USE_BUCKET:
   OUTPUT_DIR = 'gs://{}/{}'.format(BUCKET, OUTPUT_DIR)
