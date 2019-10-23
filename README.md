@@ -6,5 +6,8 @@ This is a example of building a Movie Reviews Sentiment classifier with Google's
 
 # How to Run
 To run this project you can
-- Open the IPython Notebook `src/bert_sentiment_classifier.ipynb` in your Juypter Notebook or import into [Google's Colab](https://colab.research.google.com) with GPU backend.
+- Open the IPython Notebook `src/bert_sentiment_classifier-local.ipynb` in your Juypter Notebook or 
+
+- Import `src/bert_sentiment_classifier.ipynb`  into [Google's Colab](https://colab.research.google.com) with GPU backend.
+
 - Open the Pyhon Interactive `src/bert_sentiment_classifier.py` in VisualStudio Code. See [here](https://code.visualstudio.com/docs/python/jupyter-support) how it works with Jupyter Notebooks and Code.
